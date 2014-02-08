@@ -190,8 +190,8 @@ module.exports = function(grunt) {
     grunt.registerTask('test:e2e', ['connect:test', 'karma:e2e']);
     grunt.registerTask('test:unit', ['karma:dist_unit:start']);
     grunt.registerTask('report', ['plato', 'connect:plato']);
-    grunt.registerTask('dev', ['sass','browser_sync',   'karma:dev_unit:start',   'watch']);
-    grunt.registerTask('package', ['jshint', 'clean', 'useminPrepare', 'copy', 'concat', 'ngmin', 'uglify', 'sass', 'cssmin',  'rev',  'usemin']);
+    grunt.registerTask('dev', ['less','browser_sync',   'karma:dev_unit:start',   'watch']);
+    grunt.registerTask('package', ['jshint', 'clean', 'useminPrepare', 'copy', 'concat', 'ngmin', 'uglify', 'less', 'cssmin',  'rev',  'usemin']);
     grunt.registerTask('default', ['package', 'connect:test', 'karma:dist_unit:start',  'karma:e2e'  ,'plato']);
 
 

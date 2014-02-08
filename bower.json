@@ -11,7 +11,7 @@
     "angular-cookies": "",
     "angular-sanitize": "",
     "angular-touch": "",
-    "angular-ui-router": "*",
+    "angular-ui-router": "",
     "angular-translate": "*",
     "angular-snap": "*",
     "revolunet-angular-carousel": "*",
